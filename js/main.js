@@ -8,16 +8,16 @@ kickStartr.config(['$routeProvider',
 				templateUrl: 'views/home.html',
 				controller: 'homeCtrl'
 			}).
-			when('/sites', {
-				templateUrl: 'views/sites.html',
-				controller: 'sitesCtrl'
-			}).
-			when('/dossier', {
-				templateUrl: 'views/dossier.html',
-				controller: 'dossierCtrl'
+			when('/documentation', {
+				templateUrl: 'views/documentation.html',
+				controller: 'documentationCtrl'
 			}).
 			otherwise({
 				redirectTo: '/home'
 			});
 	}]
 );
+
+kickStartr.controller('homeCtrl', ['$scope', function($scope){
+	$scope.message = "joseph nwachukwu";
+}]);
