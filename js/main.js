@@ -21,3 +21,7 @@ kickStartr.config(['$routeProvider',
 kickStartr.controller('homeCtrl', ['$scope', function($scope){
 	$scope.message = "joseph nwachukwu";
 }]);
+
+kickStartr.controller('documentationCtrl', ['$scope', function($scope){
+	$scope.message = "joseph nwachukwu";
+}]);
