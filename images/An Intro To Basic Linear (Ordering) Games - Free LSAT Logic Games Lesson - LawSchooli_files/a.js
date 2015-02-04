@@ -1,0 +1,2 @@
+checkAmazonLinks({"ip":"64.134.68.170","country_code":"US","country_name":"United States","region_code":"","region_name":"","city":"","zipcode":"","latitude":38,"longitude":-97,"metro_code":"","area_code":""}
+);

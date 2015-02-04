@@ -2,8 +2,15 @@ module.exports = function(grunt) {
 
 	//load all grunt tasks
 	require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-	
+	var filePath = '';
 	grunt.initConfig({
+		pkg: grunt.file.readJSON('package.json'),
+		less: {
+			files: [
+				
+			],
+			tasks: ['less']
+		},
 		watch: {
             scripts: {
                 files: ['js/**/*.js','!js/main.min.js','!js/vendor.min.js'],

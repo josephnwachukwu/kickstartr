@@ -1,0 +1,85 @@
+.post-content { font-size: 16px;  }
+::selection { background: #2e5776 }
+
+:-moz-selection { background: #2e5776 }
+
+.top-bar { border-top-color: #2e5776 }
+
+.trending-ticker .heading, .breadcrumbs .location, .news-focus .heading, .gallery-title, .related-posts .section-head, 
+.news-focus .heading .subcats a.active, .post-content a, .comments-list .bypostauthor .comment-author a, .error-page 
+.text-404, .main-color, .section-head.prominent, .block.posts .fa-angle-right, a.bbp-author-name { color: #2e5776 }
+
+.navigation .menu > li:hover > a, .navigation .menu >.current-menu-item > a, .navigation .menu > .current-menu-parent > a,
+.navigation .menu > .current-menu-ancestor > a, .tabbed .tabs-list .active a,  
+.comment-content .reply, .sc-tabs .active a, .navigation .mega-menu { border-bottom-color: #2e5776 }
+
+.main-featured .cat, .main-featured .pages .flex-active, .rate-number .progress, .highlights .rate-number .progress, 
+.main-pagination .current, .main-pagination a:hover, .cat-title, .sc-button-default:hover, .drop-caps, .review-box .bar,
+.review-box .overall, .listing-alt .content .read-more a, .button, .post-pagination > span { background: #2e5776 }
+
+.post-content .wpcf7-not-valid-tip, .main-heading, .review-box .heading, .post-header .post-title:before, 
+.highlights h2:before, div.bbp-template-notice, div.indicator-hint, div.bbp-template-notice.info, .modal-header .modal-title { border-left-color: #2e5776 }
+
+@media only screen and (max-width: 799px) { .navigation .mobile .fa { background: #2e5776 } }
+
+.post-content a:hover { color: #fd6e5e }
+
+.post-content a { color: #4e8ce5 }
+
+
+.cat-6, .cat-title.cat-6 { background: #dd3333; }
+.navigation .menu .menu-cat-6 .mega-menu { border-bottom-color: #dd3333; }
+.news-focus .heading.cat-6 .subcats .active, .news-focus .heading.cat-6, .cat-text-6 {  color: #dd3333;  }
+
+.navigation .menu > .menu-cat-6:hover > a, .navigation .menu > .menu-cat-6.current-menu-item > a, .navigation .menu > .menu-cat-6.current-menu-parent > a {
+	border-bottom-color: #dd3333;
+}
+
+
+.cat-10, .cat-title.cat-10 { background: #1e73be; }
+.navigation .menu .menu-cat-10 .mega-menu { border-bottom-color: #1e73be; }
+.news-focus .heading.cat-10 .subcats .active, .news-focus .heading.cat-10, .cat-text-10 {  color: #1e73be;  }
+
+.navigation .menu > .menu-cat-10:hover > a, .navigation .menu > .menu-cat-10.current-menu-item > a, .navigation .menu > .menu-cat-10.current-menu-parent > a {
+	border-bottom-color: #1e73be;
+}
+
+
+.cat-2, .cat-title.cat-2 { background: #dd9933; }
+.navigation .menu .menu-cat-2 .mega-menu { border-bottom-color: #dd9933; }
+.news-focus .heading.cat-2 .subcats .active, .news-focus .heading.cat-2, .cat-text-2 {  color: #dd9933;  }
+
+.navigation .menu > .menu-cat-2:hover > a, .navigation .menu > .menu-cat-2.current-menu-item > a, .navigation .menu > .menu-cat-2.current-menu-parent > a {
+	border-bottom-color: #dd9933;
+}
+
+
+.cat-11, .cat-title.cat-11 { background: #eeee22; }
+.navigation .menu .menu-cat-11 .mega-menu { border-bottom-color: #eeee22; }
+.news-focus .heading.cat-11 .subcats .active, .news-focus .heading.cat-11, .cat-text-11 {  color: #eeee22;  }
+
+.navigation .menu > .menu-cat-11:hover > a, .navigation .menu > .menu-cat-11.current-menu-item > a, .navigation .menu > .menu-cat-11.current-menu-parent > a {
+	border-bottom-color: #eeee22;
+}
+
+
+.cat-5, .cat-title.cat-5 { background: #1e73be; }
+.navigation .menu .menu-cat-5 .mega-menu { border-bottom-color: #1e73be; }
+.news-focus .heading.cat-5 .subcats .active, .news-focus .heading.cat-5, .cat-text-5 {  color: #1e73be;  }
+
+.navigation .menu > .menu-cat-5:hover > a, .navigation .menu > .menu-cat-5.current-menu-item > a, .navigation .menu > .menu-cat-5.current-menu-parent > a {
+	border-bottom-color: #1e73be;
+}
+
+
+div.comment-content a {
+color: rgb(51, 0, 255);
+}
+
+.main-head .title {
+float: none;
+font-size: 70px;
+font-weight: 100;
+letter-spacing: -2px;
+text-align: center;
+}
